@@ -1,0 +1,72 @@
+.container-fluid{
+    background-image: url("images/191437.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 50%;
+    height: 1000px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+header{
+    margin-left: 15rem;
+    color:  #FBDE44FF;
+    padding-top: 18rem;
+}
+h2{
+    margin-left: 5rem;
+}
+h3{
+    margin-left: 0rem;
+}
+.additem{
+    margin-top: 1rem;
+    margin-left: 16rem;
+    font-size: 22px;
+    padding-bottom: 1rem;
+}
+
+.col{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.text{
+    font-size: 24px;
+    margin-right: 4rem;
+}
+.item{
+    list-style-type: none;
+    cursor: pointer;
+    position: relative; 
+}
+.item:hover{
+    background-color: none;
+}
+
+#list{
+    padding-bottom: 2rem;
+
+}
+#trash-btn{
+    margin-left: 20px;
+    padding-right: 30px;
+}
+#trash-btn:hover {
+    background-color: none;
+    color: red;
+}
+#add{
+    margin-left: 20px;
+}
+#add:hover{
+    background-color: none;
+    color: red;
+}
+#refresh{
+    margin-left: 20px;
+    color: #28334AFF; 
+}
+#refresh:hover{
+    background-color: none;
+    color: red;
+}
