@@ -7,12 +7,15 @@ const today = new Date();
 dateElement.innerHTML = today.toLocaleDateString("en-US", options);
 
 // add item to the list
+// add item to the list
 function addItem(){
     var ul = document.getElementById("list");
     var text = document.getElementById("input");
     var li = document.createElement("li");
+    const trashCan = `<i class="fa fa-trash-o" style="font-size:22px" id="trash-btn"></i>`;
     li.setAttribute('id',input.value);
     li.appendChild(document.createTextNode(input.value));
+    li.insertAdjacentHTML('beforeend', trashCan);
     ul.appendChild(li);
     li.style.color = 'red';
     li.style.fontSize = '24px';
@@ -20,7 +23,7 @@ function addItem(){
     li.style.marginRight = '4rem';
 }
 add.addEventListener('click', function(){
-        addItem("add");
+        addItem();
       });
 
 
